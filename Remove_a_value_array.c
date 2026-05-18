@@ -19,7 +19,7 @@ int main()
         scanf("%d", &index);
 
         if (index >= 0 && index < n) {
-            break; // Valid input, exit the loop
+            break; // Valid input, exit the loop.
         } else {
             printf("Error: Index %d is out of range. Try again.\n", index);
         }
